@@ -1,0 +1,101 @@
+.imagen-titulo:before, .imagen-titulo--der:before, .imagen-titulo--izq:before
+  width: 98%
+  height: 98%
+.imagen-titulo.color-secundario .imagen-titulo__titulo, .color-secundario.imagen-titulo--der .imagen-titulo__titulo, .color-secundario.imagen-titulo--izq .imagen-titulo__titulo
+  background-color: $color-sistema-texto
+
+.imagen-titulo.color-secundario:before, .color-secundario.imagen-titulo--der:before, .color-secundario.imagen-titulo--izq:before
+  background-color: $color-sistema-texto
+
+.bloque-texto-a.color-primario:before 
+  background-color: #EEEEF2
+
+.bloque-texto-a.color-primario 
+    background-color: #A6DAD7
+
+.bloque-texto-a__texto
+  padding: 30px
+.bloque-texto-a
+  &.reverse
+    &:before
+      left: 0
+      right: 50%
+
+.bloque-texto-a:before 
+  left: 58%
+
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon
+  background-color: #ffffff
+
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon:after
+  background-color: #1D272D
+
+.linea-tiempo-b__icon img
+  width: 120px
+
+.contenedorLink
+  top: 2px
+
+
+.tarjeta.color-secundario
+  background-color: #EEEEF2
+
+.tarjeta.color-primario
+  background-color: #A6DAD7
+
+.tarjeta--fondo
+  background-image: url(../assets/curso/fondo-banner-principal.png)
+  background-size: auto
+  background-repeat: no-repeat
+.custom-img
+  width: 400px
+.custom-img2
+  width: 150px
+
+.cajon-b.abajo-derecha:before 
+  left: 26%
+
+.cajon-b:before 
+  right: 25%
+.slyder-a__bullets 
+  bottom: -10px
+.slyder-a__btn--atrs
+  left: -26px
+
+.slyder-a__btn--sigt 
+  right: -24px
+
+.bg-color1
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px
+  background-image: url(../assets/curso/tema2/fondo-red.svg)
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: right
+
+
+
+
+
+@media screen and ( min-width: 1196px)  
+  .bloque-texto-a__texto
+    padding-right: 50px
+  .linea-tiempo-b__icon img
+    width: 166px
+@media screen and ( min-width: 1400px)  
+  .contenedorLink
+    //display: flex
+    position: absolute
+    top: 66%
+    left: 60%
+@media screen and ( max-width: 988px)  
+  .bloque-texto-a__texto
+    margin-bottom: 40px
+    margin-top: 15px
+  .custom-img
+    width: 290px
+  .custom-img2
+    width: 90px
+@media screen and ( max-width: 1388px)  
+  .contenedorLink
+    justify-content: center
