@@ -229,7 +229,75 @@
     p.mb-4 El orden adecuado el retiro  de estos elementos de protección personal se presenta a continuación:
 
 
-
+    PasosA.color-primario.mb-5(tipo="n")
+      .row
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon8.svg' alt='AvatarTop')
+            .tarjeta
+              .p-4
+                h3 Retirar los guantes
+                p.mb-0 Desde una de las manos, se toma el guante de la mano contraria y se extrae. El guante permanece en la mano que tiene aún el guante. Desde un dedo de la otra mano que quedó libre, se debe retirar el guante desde la parte interna, la que está en contacto con la piel y que, por ende, es la zona limpia. Se deben desechar en la caneca de residuos biológicos. Si la piel llegase a tocar la parte sucia de los guantes, se debe lavar las manos inmediatamente y aplicar loción desinfectante o alcohol.
+      .row.justify-content-end
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta
+              .p-4.text-start
+                h3 Quitar la bata
+                p.mb-0 Se retira desamarrando la parte de atrás, sacando los brazos y las manos. Si es de un solo uso, enrollar siempre por la parte interna y desecharla en la caneca de residuos biológicos. Si es de varios usos, previamente, antes de retirar los guantes, debió quedar limpia.
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon9.svg' alt='AvatarTop')
+            
+      .row
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon10.svg' alt='AvatarTop')
+            .tarjeta
+              .p-4
+                h3 Retirar gafas
+                p.mb-0 Guardarlas limpias, en el lugar designado para ello.
+      
+      .row.justify-content-end
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta
+              .p-4.text-start
+                h3 Retirar mascarilla
+                p.mb-0 Si es de un solo uso, desecharla, o si es reutilizable, guardar limpia en el lugar asignado.
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon11.svg' alt='AvatarTop')
+      .row
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon12.svg' alt='AvatarTop')
+            .tarjeta
+              .p-4
+                h3 Limpiar pijama
+                p.mb-0 Guardar pijama antifluido y lavarla todos los días luego de la labor funeraria.
+        
+      .row.justify-content-end
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta
+              .p-4.text-start
+                h3 Retirar botas
+                p.mb-0 Retirar el calzado especializado para dicha labor -botas plásticas blancas.
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon13.svg' alt='AvatarTop')
+      .row
+        .col-auto
+          .tarjeta-avatar-b.mb-2
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema2/icon14.svg' alt='AvatarTop')
+            .tarjeta
+              .p-4
+                h3 Lavar las manos
+                p.mb-0 Lavar muy bien las manos, antebrazo y brazo.
+        
+        
 
 
 

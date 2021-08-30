@@ -73,6 +73,82 @@
   background-repeat: no-repeat
   background-position: right
 
+.fa-biohazard
+  color: $color-acento-contenido
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
+  padding: 0px 28px !important
+
+.bg-color2
+  width: 32%
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px 10px 0px 0px
+  border-bottom: 5px solid #DB8804
+
+.bg-color3
+  width: 32%
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px 10px 0px 0px
+  border-bottom: 5px solid #D93328
+
+
+.bg-tarjeta
+  box-shadow: 0px 0px 8px 0px #DEDEDE
+  border-radius: 10px
+  background-image: url(../assets/curso/tema4/fondo-green.svg)
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: right
+
+
+// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background: linear-gradient(180deg,#f5f5f5,#ecf6fc)
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #008F85
+    .tarjetaTxt
+      border-top: 7px solid #008F85
+
+.tarjeta-purpura
+  background: linear-gradient(180deg,#f5f5f5,#ecf6fc)
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #D93328
+    .tarjetaTxt
+      border-top: 7px solid #D93328
+
+$tarjeta-dimension: 270px
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+
+.titulo-segundo:after 
+  border-left: solid 50px #00978E
 
 
 
@@ -96,6 +172,8 @@
     width: 290px
   .custom-img2
     width: 90px
+  .bg-color2,.bg-color3
+    width: 80%
 @media screen and ( max-width: 1388px)  
   .contenedorLink
     justify-content: center
