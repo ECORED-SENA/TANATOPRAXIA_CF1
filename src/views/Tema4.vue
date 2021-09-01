@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 4
       h1 Desinfección
-    
+    p.mb-4 Antes de iniciar, debe establecer la diferencia entre dos conceptos básicos que suelen confundirse muy a menudo. Ellos son:
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -114,8 +114,9 @@
       .col-lg-5
         figure.mb-4
           img(src='@/assets/curso/tema4/img6.svg', style="width: 410px;" ,alt='Formula para la dilución concentrada de Hipoclorito').mx-auto
-
+    
     .row.justify-content-center.mb-5
+      p.ps-5.mb-4 Donde:
       .col-auto.mb-4
         .tarjeta.tarjeta-container.tarjeta-cyan
           .tarjetaContent

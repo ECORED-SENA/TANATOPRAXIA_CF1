@@ -136,12 +136,12 @@ export default {
     {
       referencia:
         'SENA [Red Producción de Contenidos Grupo Gestión Curricular]. (2020a, mayo 3). ¿Cómo lavarse las manos de una forma segura? [Video]. YouTube.',
-      link: '<br>https://youtu.be/N5iWzjNWh8A',
+      link: 'https://youtu.be/N5iWzjNWh8A',
     },
     {
       referencia:
         'SENA [Red Producción de Contenidos Grupo Gestión Curricular]. (2020b, abril 21). Recomendaciones, descarte de elementos y desinfección de equipo [Video]. YouTube',
-      link: '<br>https://youtu.be/fUmd0RTsvbI',
+      link: 'https://youtu.be/fUmd0RTsvbI',
     },
   ],
   glosario: [
@@ -184,7 +184,7 @@ export default {
       texto:
         'SENA [Red Producción de Contenidos Grupo Gestión Curricular]. (2020, 21 abril). Equipo de protección personal [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/iDnhA8nPFsM',
+      link: 'https://youtu.be/N5iWzjNWh8A',
     },
     {
       texto:
@@ -323,12 +323,12 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: 'Nombre',
+      {
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

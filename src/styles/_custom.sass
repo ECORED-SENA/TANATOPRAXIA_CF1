@@ -150,7 +150,8 @@ $tarjeta-dimension: 270px
 /*.titulo-segundo:after 
   border-left: solid 50px #00978E*/
 
-
+.linea-custom
+  border-right: #DB8804 solid 3px
 
 
 @media screen and ( min-width: 1196px)  
@@ -177,3 +178,16 @@ $tarjeta-dimension: 270px
 @media screen and ( max-width: 1388px)  
   .contenedorLink
     justify-content: center
+@media screen and ( max-width: 767px)  
+  .linea-custom
+    border-right: 0
+    margin-bottom: 8px
+  .linea-custom:after
+    //border-bottom: #DB8804 solid 30px
+    content: ""
+    display: inline-flex
+    text-align: center
+    height: 3px
+    width: 80%
+    background-color: #DB8804
+    margin-bottom: 10px

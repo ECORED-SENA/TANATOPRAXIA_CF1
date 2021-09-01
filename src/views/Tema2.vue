@@ -9,6 +9,7 @@
       h1 Normas de bioseguridad
 
     p.mb-4 Las medidas de bioseguridad en el sector funerario son medidas que se toman y se aplican para la prevención de riesgos o de accidentes provenientes de material biológico, anatómico, de elementos patógenos o por microorganismos tales como bacterias, virus u hongos. El objetivo de la bioseguridad es servir como punto de contención de las posibles enfermedades que pudiesen salir de la manipulación de cualquier elemento biológico y así evitar al máximo accidentes de orden laboral que afecten la salud de los trabajadores o de las demás personas.
+    p.mb-4 En el gremio funerario los accidentes más comunes se deben a pinchazos con agujas o cortaduras de bisturí o cualquier otro elemento punzocortante que están dentro de las herramientas y equipos; pero también los riesgos biológicos a los que está sometido un operario funerario son aquellos que pueden ingresar de manera dérmica, sanguínea, respiratoria o digestiva, pudiendo desencadenar enfermedades infectocontagiosas, intoxicaciones o alergias. Las zonas o espacios donde se guardan herramientas que se usan para los procesos con cadáveres deben estar debidamente demarcadas con los símbolos de riesgo biológico y deben ser de uso exclusivo para las funciones específicas que contengan algún grado de riesgo biológico.
     .row.justify-content-center
       .col-lg-8.mb-3
         p En la bioseguridad, se considera que existe un riesgo biológico cuando las personas están propensas a la exposición con agentes patógenos, y para minimizar el riesgo existe un principio universal que protege y salvaguarda la integridad del personal que trabaja en el área de la salud y que por obvias razones se extiende al sector funerario. Este principio básicamente es para prevenir significativamente que ocurra una transmisión o propagación de alguna enfermedad. La norma universal de precaución consiste en que el trabajador funerario dé por hecho que “todo cadáver se tiene que suponer que es potencialmente infeccioso”. Esta premisa de bioseguridad universal permite que el operario realice las funciones funerarias con todos los cuidados necesarios, sin importar si se conoce o no el diagnóstico patológico o la historia clínica del cuerpo que se manipula. El propósito esencial de esta precaución universal es protegerse y proteger a las personas que lo rodean. 
@@ -127,14 +128,14 @@
           .col-md-4
             figure.mb-4
               img.custom-img.mx-auto(src='@/assets/curso/tema2/img10.jpg', alt='Microorganismos nocivos')
-          .col-md-6.mb-4.mb-md-0.align-self-center.p-0
+          .col-md-7.mb-4.mb-md-0.align-self-center.p-0
             .cajon-b.color-primario.p-3.mb-2
               p.mb-0  La mayoría de las veces, el operario funerario no tiene conocimiento si el cuerpo con el que está trabajando presenta alguna enfermedad infectocontagiosa, por tal motivo, se tiene siempre que trabajar bajo premisas universales de autocuidado y protección personal.
             p.px-3.mb-4 Al personal operativo que está en contacto o en exposición con los fallecidos se le recomienda tener al día y actualizado el siguiente esquema de vacunación y periódicamente estar revisando los niveles de anticuerpos.
             .row.justify-content-center
-              .col-11
+              .col-auto
                 figure.mb-4
-                  img.custom-img.mx-auto(src='@/assets/curso/tema2/img11.svg', alt='')
+                  img.custom-img.mx-auto(src='@/assets/curso/tema2/img11.svg', alt='', style='width:590px;')
 
     p.mb-4 Para finalizar los mecanismos de barreras contundentes, se presentan elementos de protección personal relacionados con vestuario y objetos externos al ser humano que disminuyen riesgos presentes en procesos que involucran la atención de un servicio de salud y similares.
     .row.justify-content-center.mb-4
@@ -170,21 +171,21 @@
       .col-lg-8.mb-5
         LineaTiempoD.color-primario
           .row.justify-content-center.mt-3(numero="1" titulo="Bata plástica y pijama antifluido ")
-            .col-md-2
+            .col-md-2.linea-custom.align-self-center(style='text-align: center;')
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img15.svg', alt='Bata plástica y pijama antifluido', style='width:72px;')
             .col-md-9.mb-4.mb-md-0
               p La tela antifluido, por sus características, sirve como una barrera que ayuda a rechazar las posibles partículas de líquidos. Se recomienda que sea pantalón y camisa por separado, además, un gorro para cubrir la cabeza o recoger el cabello; superpuesto a esto, debe usarse una bata o delantal plástico que cubra toda la parte delantera, desde el pecho hasta las rodillas, y que cubra por completo los brazos, por lo general, se cierra por la parte posterior de la cintura. Existen otros tipos de batas, tipo overol, que tienen cierres en la parte delantera y son completamente plásticas. 
             
           .row.justify-content-center.mt-3(numero="2" titulo="Botas plásticas o protección para calzado")
-            .col-md-2
+            .col-md-2.linea-custom.align-self-center(style='text-align: center;')
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img16.svg', alt='Botas plásticas o protección para calzado', style='width:89px;')
             .col-md-9.mb-4.mb-md-0
               p Se recomienda que sean botas plásticas blancas largas, idealmente, que cubran desde la planta del pie hasta unos 2 o 3 dedos abajo de la rodilla, con esto se evitará que posibles derrames de líquidos o sangre se filtren en el calzado, además, es necesario que sean de color blanco, pues permite que siempre se evidencie la limpieza de ellas.
           
           .row.justify-content-center.mt-3(numero="3" titulo="Gafas o careta plástica")
-            .col-md-2
+            .col-md-2.linea-custom.align-self-center(style='text-align: center;')
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img17.svg', alt='Gafas o careta plástica', style='width:108px;')
             .col-md-9.mb-4.mb-md-0
@@ -193,7 +194,7 @@
           .row.justify-content-center(numero="4" titulo="Protección respiratoria")
             .col-11
               .row.justify-content-center.mt-3
-                .col-md-2
+                .col-md-2.linea-custom.align-self-center(style='text-align: center;')
                   figure
                     img.mx-auto(src='@/assets/curso/tema2/img18.svg', alt='Protección respiratoria')
                 .col-md-10.mb-4.mb-md-0
@@ -202,18 +203,13 @@
               p.mb-4 Deben quedar bien ajustados ubicándolos alrededor de la cabeza, cuello u orejas, según su forma. Lo más importante es que cubra por completo las vías respiratorias, desde el tabique de la nariz hasta la barbilla.
           
           .row.justify-content-center.mt-3(numero="5" titulo="Guantes")
-            .col-md-2
+            .col-md-2.linea-custom.align-self-center(style='text-align: center;')
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img19.svg', alt='Guantes', style='width:68px;')
             .col-md-9.mb-4.mb-md-0
               p Se recomienda que sean de material resistente, como el nitrilo o la goma. Los de látex no se recomiendan para el uso funerario, pues el material es poroso, lo que genera que el líquido o pequeñas partículas se filtren más rápido. Se usan para cubrir por completo la mano y los dedos hasta hacer contacto con el área de la muñeca que aísla la bata, protegiendo así por completo las extremidades superiores. Se tienen que cambiar cuando se rompan.
           
-
-    p.mb-5 El lavado de las manos incluye la palma, el dorso, los dedos y las uñas; para estas últimas se recomiendan que estén cortas, sin esmalte y limpias. Para el lavado eficiente de las manos se debe usar agua limpia y jabón desinfectante. Se le sugiere observar el siguiente recurso de aprendizaje para que perciba un buen lavado de manos.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      
+    
     figure.mb-5
       img.mx-auto(src='@/assets/curso/tema2/img20.svg', alt='A imagen que presenta el orden adecuado para la implementación de estos elementos de protección personal:', style='')
 
@@ -296,11 +292,21 @@
               .p-4
                 h3 Lavar las manos
                 p.mb-0 Lavar muy bien las manos, antebrazo y brazo.
-        
-        
 
+    p.mb-4 Luego de haber identificado algunos elementos de protección, es importante adicionar al uso de estos la limpieza de las manos, ya que son una parte del cuerpo del funcionario necesaria para la manipulación del cadáver. Una vez finalice esta función, se recomienda un lavado de manos.
+    p.mb-5 El lavado de las manos incluye la palma, el dorso, los dedos y las uñas; para estas últimas se recomiendan que estén cortas, sin esmalte y limpias. Para el lavado eficiente de las manos se debe usar agua limpia y jabón desinfectante. Se le sugiere observar el siguiente recurso de aprendizaje para que perciba un buen lavado de manos.
+    figure.mb-5
+      .video
+        <iframe width="933" height="525" src="https://www.youtube.com/embed/N5iWzjNWh8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    .row
+      .col-lg-12.p-0
+        .tarjeta-avatar-b.mb-4
 
-
+          .tarjeta-avatar-b__img(style='min-width:15%')
+            img(src='@/assets/curso/tema2/icon7.svg' alt='AvatarTop', style='width:160px;')
+          .tarjeta.bg-color1(style='border-radius:0;background-color:#fff; ')
+            .p-4.ps-0.mt-4
+              p.mb-0 Para finalizar, se debe recordar que con todos estos elementos de bioseguridad se evitan accidentes de orden biológico. El retiro de estos es de suma importancia, pues se deben retirar teniendo las precauciones de no tocar directamente las zonas que estuvieron en contacto directo con el cadáver. Se deben retirar en el área dispuesta para esto, que normalmente es la zona intermedia entre el laboratorio de tanatopraxia y el exterior.
 
 
 
