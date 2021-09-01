@@ -188,7 +188,21 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-
+    .bloque-texto-a.reverse.color-primario.p-4.p-md-4.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-3.mb-4.mb-lg-0.align-self-center
+          figure
+            img.mx-auto(src='@/assets/curso/tema4/img10.svg', alt='imagen ambiental',style='width:290px;')
+        .col-lg-9
+          .bloque-texto-a__texto
+            p.mb-4 A la fecha existen diversas sustancias, mecanismos y procedimientos que se utilizan para cuidar el medio ambiente y la salud cuando se utilizan para contrarrestar agentes infecciosos. Estos se pueden eliminar a través de la limpieza, desinfección y buenas prácticas de higiene. Está invitado a finalizar la lectura de este componente formativo explorando la #[strong “Guía de limpieza y desinfección”,] realizada por el Ministerio de Ambiente y Desarrollo Sostenible.
+            .row.justify-content-center
+              .col-auto
+                a.anexo.mb-0(:href="obtenerLink('/downloads/GUIA_DE_LIMPIEZA_Y_DESINFECCION.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    p #[strong Anexo.] Guía para trabajadores expuestos a riesgos biológico
 
 
 </template>

@@ -261,7 +261,7 @@
             .tarjeta
               .p-4.text-start
                 h3 Retirar mascarilla
-                p.mb-0 Si es de un solo uso, desecharla, o si es reutilizable, guardar limpia en el lugar asignado.
+                p.mb-0 Si es de un solo uso, desecharla, o si es reutilizable, guardarla limpia en el lugar asignado.
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema2/icon11.svg' alt='AvatarTop')
       .row
