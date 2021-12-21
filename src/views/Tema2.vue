@@ -45,7 +45,7 @@
             p Apreciado aprendiz, el Ministerio de Trabajo de Colombia ha desarrollado una #[strong “Guía para trabajadores expuestos a riesgos biológicos” (2018).] Está invitado a identificar las herramientas y recomendaciones sugeridas en los entornos laborales que presentan alta exposición a riesgo biológico. Haga clic en el presente ícono para ir al texto.
           .row.contenedorLink
             .col-auto
-              a.anexo.mb-4(:href="obtenerLink('/downloads/GUIA RIESGO BIOLÓGICO PARA TRABAJADORES.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/guia-riesgo-biologico-trabajadores.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -310,6 +310,7 @@
 
 
 
+
 </template>
 
 <script>
@@ -320,7 +321,7 @@ export default {
       {
         titulo: 'Ley 9 de 1979 ',
         texto:
-          'Esta Ley  expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulta este enlace:<br><br><a class="anexo mb-4" href="./downloads/LEY 0009 DE 1979.pdf" target="_blank"><div class="anexo__icono"><img src="./imagenes/icono-pdf.svg" /></div><div class="anexo__texto"><p>Anexo. LEY 9 DE 1979 (enero 24) Diario Oficial No. 35308, del 16 de julio de 1979</p></div></a>',
+          'Esta Ley  expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulta este enlace:<br><br><a class="anexo mb-4" href="./downloads/LEY-0009-DE-1979.pdf" target="_blank"><div class="anexo__icono"><img src="./imagenes/icono-pdf.svg" /></div><div class="anexo__texto"><p>Anexo. LEY 9 DE 1979 (enero 24) Diario Oficial No. 35308, del 16 de julio de 1979</p></div></a>',
         icono: require('@/assets/curso/tema2/icon1.svg'),
       },
       {
@@ -338,7 +339,7 @@ export default {
       {
         titulo: 'Norma Técnica Colombiana NTC 6212',
         texto:
-          'Esta Norma establece define los términos utilizados en la prestación de servicios funerarios. Para más información, consulta el siguiente enlace:<br><br><div class="row"><div class="col-12"> <a class="anexo mb-4 mb-lg-0" href="https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=6002A697B3F03F6282B108144F0748A3&Req=" target="_blank"><div class="anexo__icono"><img src="./imagenes/icono-link.svg" /></div><div class="anexo__texto"><p>Enlace web. Norma Técnica Colombiana NTC 6212</p></div></a></div></div>',
+          'Esta Norma define los términos utilizados en la prestación de servicios funerarios. Para más información, consulta el siguiente enlace:<br><br><div class="row"><div class="col-12"> <a class="anexo mb-4 mb-lg-0" href="https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=6002A697B3F03F6282B108144F0748A3&Req=" target="_blank"><div class="anexo__icono"><img src="./imagenes/icono-link.svg" /></div><div class="anexo__texto"><p>Enlace web. Norma Técnica Colombiana NTC 6212</p></div></a></div></div>',
         icono: require('@/assets/curso/tema2/icon4.svg'),
       },
     ],

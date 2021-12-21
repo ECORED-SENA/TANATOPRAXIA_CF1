@@ -130,8 +130,9 @@ export default {
     {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (s.f.). Guía de limpieza y desinfección.<br>',
-      link:
+      /*link:
         'https://www.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/Talento_humano/Circular-015/GUIA_DE_LIMPIEZA_Y_DESINFECCION.pdf',
+    */
     },
     {
       referencia:
@@ -184,7 +185,7 @@ export default {
       texto:
         'SENA [Red Producción de Contenidos Grupo Gestión Curricular]. (2020, 21 abril). Equipo de protección personal [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/N5iWzjNWh8A',
+      link: 'https://youtu.be/iDnhA8nPFsM',
     },
     {
       texto:
